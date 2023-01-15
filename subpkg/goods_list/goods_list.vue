@@ -10,10 +10,33 @@
       return {
         
       };
+    },
+    onLoad() {
     }
   }
 </script>
 
 <style lang="scss">
+.my-search-container {
+  background-color: #c00000;
+  height: 50px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
 
+.my-search-box {
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .placeholder {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
 </style>
